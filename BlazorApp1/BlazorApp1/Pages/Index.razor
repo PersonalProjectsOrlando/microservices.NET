@@ -1,0 +1,9 @@
+﻿@page "/"
+@if (mostrarMensaje)
+{
+    <p>Este mensaje se mostrará si mostrarMensaje es verdadero.</p>
+}
+
+@code {
+    private bool mostrarMensaje = true;
+}
